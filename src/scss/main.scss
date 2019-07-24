@@ -4,13 +4,22 @@
 
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.heisenberg {
+  font-size: 50px;
 }
