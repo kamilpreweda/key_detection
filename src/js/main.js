@@ -21,7 +21,7 @@ const secretCode = "kamil";
 const body = document.body;
 const paragraph = document.querySelector('.heisenberg');
 const img = document.createElement('img');
-img.src = '../assets/img/heisenberg.jpg'
+img.src = 'assets/img/heisenberg.jpg'
 
 window.addEventListener('keyup', (e) => {
   pressed.push(e.key);
